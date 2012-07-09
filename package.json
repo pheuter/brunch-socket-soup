@@ -1,0 +1,39 @@
+{
+  "author": "Author",
+  "name": "Name",
+  "description": "Description",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "0.6"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "dependencies": {
+    "coffee-script": "1.3.x",
+    "express": "2.5.x",
+    "socket.io": "0.9.x",
+
+    "javascript-brunch": ">= 1.0 < 1.4",
+    "coffee-script-brunch": ">= 1.0 < 1.4",
+
+    "css-brunch": ">= 1.0 < 1.4",
+    "stylus-brunch": ">= 1.0 < 1.4",
+
+    "handlebars-brunch": ">= 1.0 < 1.4",
+
+    "uglify-js-brunch": ">= 1.0 < 1.4",
+    "clean-css-brunch": ">= 1.0 < 1.4"
+  },
+  "devDependencies": {
+    "chai": "1.0.4",
+    "sinon": "1.3.4",
+    "sinon-chai": "2.1.2"
+  }
+}
